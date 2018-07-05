@@ -1,7 +1,7 @@
 server:
   port: 3000
 application:
-  domain: juice-sh.op
+  domain: aGameWars.op
   name: 'Cool Coins'
   logo: a_logo_ctf.png
   favicon: a_logo_ctf_RzH_icon.ico
@@ -23,12 +23,12 @@ application:
     textColor: '#ffffff'
     buttonColor: '#f5d948'
     buttonTextColor: '#000000'
-    message: 'This website uses fruit cookies to ensure you get the juiciest tracking experience.'
+    message: 'This website uses a myriad of 3rd-party cookies for your convenience and tracking pleasure.'
     dismissText: 'Me want it!'
     linkText: 'But me wait!'
     linkUrl: 'https://www.youtube.com/watch?v=9PnbKL3wuH4'
   securityTxt:
-    contact: 'mailto:donotreply@agame.war'
+    contact: 'mailto:donotreply@agame.op'
     encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
     acknowledgements: '/#/score-board'
 products:
