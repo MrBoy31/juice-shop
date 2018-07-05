@@ -3,7 +3,7 @@ server:
 application:
   domain: aGameWars.op
   name: 'Cool Coins'
-  logo: 3.svg
+  logo: a_logo_ctf.png
   favicon: a_logo_ctf_RzH_icon.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
