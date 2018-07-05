@@ -2,13 +2,13 @@ server:
   port: 3000
 application:
   domain: juice-sh.op
-  name: 'OWA Juice Shop'
-  logo: JuiceShop_Logo.png
-  favicon: favicon_v2.ico
+  name: 'Cool Coins'
+  logo: a_logo_ctf.png
+  favicon: a_logo_ctf_RzH_icon
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
   showChallengeHints: true
-  showVersionNumber: true
+  showVersionNumber: false
   theme: slate # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
   gitHubRibbon: orange # Options: darkblue  gray  green  orange  red  white  none
   twitterUrl: 'https://twitter.com/owasp_juiceshop'
@@ -16,9 +16,9 @@ application:
   planetOverlayMap: orangemap2k.jpg
   planetName: Orangeuze
   recyclePage:
-    topProductImage: fruit_press.jpg
-    bottomProductImage: apple_pressings.jpg
-  altcoinName: Juicycoin
+    topProductImage: undefined.png
+    bottomProductImage: undefined.png
+  altcoinName: Coolcoin
   cookieConsent:
     backgroundColor: '#eb6c44'
     textColor: '#ffffff'
@@ -29,7 +29,7 @@ application:
     linkText: 'But me wait!'
     linkUrl: 'https://www.youtube.com/watch?v=9PnbKL3wuH4'
   securityTxt:
-    contact: 'mailto:donotreply@owasp-juice.shop'
+    contact: 'mailto:donotreply@agame.war'
     encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
     acknowledgements: '/#/score-board'
 products:
