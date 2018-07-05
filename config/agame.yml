@@ -8,7 +8,7 @@ application:
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
   showChallengeHints: false
-  showVersionNumber: true
+  showVersionNumber: false
   theme: united
   gitHubRibbon: none
   twitterUrl: 'https://twitter.com/mozcloudsec'
