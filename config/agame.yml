@@ -8,11 +8,11 @@ application:
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
   showChallengeHints: false
-  showVersionNumber: false
-  theme: slate # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
+  showVersionNumber: true
+  theme: united
   gitHubRibbon: none
-  twitterUrl: 'https://twitter.com/owasp_juiceshop'
-  facebookUrl: 'https://www.facebook.com/owasp.juiceshop'
+  twitterUrl: 'https://twitter.com/mozcloudsec'
+  facebookUrl: null
   planetOverlayMap: orangemap2k.jpg
   planetName: Orangeuze
   recyclePage:
