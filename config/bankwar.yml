@@ -1,0 +1,171 @@
+application:
+  domain: wargames-ctf.op
+  name: 'Bad Bank'
+  logo: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/a_logo_ctf.png'
+  favicon: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/a_logo_ctf_RzH_icon.ico'
+  showChallengeSolvedNotifications: true
+  showChallengeHints: false
+  theme: united
+  gitHubRibbon: darkblue
+  twitterUrl: 'https://twitter.com/mozcloudsec'
+  facebookUrl: null
+  recyclePage:
+    topProductimage: Gear-200155340.jpg
+    bottomProductimage: Gear-200155753.jpg
+  altcoinName: ABquito
+  cookieConsent:
+    backgroundColor: '#d63518'
+    textColor: '#ffffff'
+    buttonColor: '#2778c5'
+    buttonTextColor: '#ffffff'
+    message: 'This website uses a myriad of 3rd-party cookies for your convenience and tracking pleasure.'
+    dismissText: 'Never mind!'
+    linkText: 'How can I turn this off?'
+    linkUrl: 'https://support.mozilla.org/en-US/kb/disable-third-party-cookies'
+  securityTxt:
+    contact: 'mailto:donotreply@bankwarctf.op'
+    encryption: ~
+products:
+  -
+    name: 'Future Bond'
+    description: 'The fund aims to achieve above average income for investors in the bond market. See how this fund can help you diversify.'
+    price: 68.89
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_01.png'
+    reviews:
+      - { text: 'One of my favorites!', author: admin }
+  -
+    name: 'International Mortgages'
+    price: 205
+    description: 'If you’re a non-South African citizen looking to invest in South African residential property, we can assist you. We are here to help you through the process until you find a suitable investment.'
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_02.png'
+  -
+    name: 'Foreign Exchange3'
+    description: 'Are you doing trade in goods and services across international borders? We have a team of experts who will help you with all your foreign exchange needs, from assisting you access competitively priced over-the-counter products to enhancing your trading experience with our foreign exchange electronic payment solutions.'
+    price: 33
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_03.png'
+    reviews:
+      - { text: 'I bought it, would buy again. 5/7', author: admin }
+  -
+    name: 'Special Package 1'
+    description: 'This Very Splendid Package includes..things.. who knows?'
+    price: 34
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_04.png'
+  -
+    name: 'Special Package 2'
+    description: 'This Very Splendid Package includes..other things.. still, who knows?'
+    price: 37
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_05.png'
+  -
+    name: 'Special Package 3'
+    description: 'What is in the box'
+    price: 300.89
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_06.png'
+  -
+    name: 'Bank Product 04'
+    price: 13.51
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_07.png'
+  -
+    name: 'Bank Product 05'
+    price: 10
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_08.png'
+  -
+    name: 'Bank Product 06'
+    price: 13.51
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/Absa-Transact-Visa.png'
+  -
+    name: 'Bank Product 07'
+    price: 17.75
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/Absa-Transact-Visa.png'
+  -
+    name: Bank Product 08
+    price: 5.5
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/Absa-Transact-Visa.png'
+    reviews:
+      - { text: 'One of my favorites.', author: jim }
+  -
+    name: 'Bank Product 09'
+    price: 5.5
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/Absa-Transact-Visa.png'
+  -
+    name: 'Bank Product 10'
+    price: 8.81
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/Absa-Transact-Visa.png'
+  -
+    name: 'Bank Product 11'
+    price: 0.11
+    description: '1 roll = 500 stickers (please request 500 if you need a full roll)'
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/Absa-Transact-Visa.png'
+  -
+    name: 'Bank Product 12'
+    price: 0.32
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/Absa-Transact-Visa.png'
+    reviews:
+      - { text: 'Fry liked it too.', author: bender }
+  -
+    name: 'Bank Product 13'
+    price: 2.33
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_09.png'
+  -
+    name: 'Bank Product 14'
+    price: 1.65
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_10.png'
+  -
+    name: 'Bank Product 15'
+    price: 4
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_11.png'
+  -
+    name: 'Transaction Account'
+    price: 4.99 pm
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/a_12.png'
+  -
+    name: 'Bank Product 16'
+    price: 4.63
+  -
+    name: 'Bank Product 17'
+    price: 8.6
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/undefined.png'
+  -
+    name: 'Bank Product 18'
+    price: 19.66
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/undefined.png'
+    reviews:
+      - { text: 'You gotta get this.', author: jim }
+  -
+    name: 'Another Box Product'
+    description: 'More things in a box, we've got boxes for day'
+    price: 4.31
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/undefined.png'
+  -
+    name: 'Bank Product 19'
+    price: 5.09
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/undefined.png'
+  -
+    name: 'Bank Product 20'
+    price: 5.94
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/undefined.png'
+  -
+    name: 'OWASP Zed Attack Proxy (ZAP)'
+    description: 'ZAP is one of the world’s most popular free security tools and can help you automatically find security vulnerabilities while you are developing and testing your applications.'
+    price: 0.01
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/assets/zap.png'
+    urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project'
+  -
+    name: 'Bank Product 21'
+    description: 'Contains a random selection of stickers and three Unisex t-shirts (3XL) for an unbeatable price!'
+    price: 29.99
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/undefined.png'
+    useForChristmasSpecialChallenge: true
+  -
+    name: 'Logo (3D-printed)'
+    description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
+    price: 99.99
+    image: 3d_keychain.jpg
+    fileForRetrieveBlueprintChallenge: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/3d_keychain.stl'
+  -
+    name: 'Global OWASP WASPY Award 2017 Nomnation'
+    description: 'Your chance to nominate up to three quiet pillars of the OWASP community ends 2017-06-30! <a href="https://www.owasp.org/index.php/WASPY_Awards_2017">Nominate now!</a>'
+    price: 0.03
+    image: 'https://raw.githubusercontent.com/MrBoy31/wargame-pilot01/master/app/public/images/products/undefined.png'
+    deletedDate: '2017-07-01'
+ctf:
+  showFlagsInNotifications: true
