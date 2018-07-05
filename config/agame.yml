@@ -4,7 +4,7 @@ application:
   domain: juice-sh.op
   name: 'Cool Coins'
   logo: a_logo_ctf.png
-  favicon: a_logo_ctf_RzH_icon
+  favicon: a_logo_ctf_RzH_icon.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
   showChallengeHints: false
@@ -12,7 +12,6 @@ application:
   theme: united
   gitHubRibbon: none
   twitterUrl: 'https://twitter.com/mozcloudsec'
-  facebookUrl: null
   planetOverlayMap: orangemap2k.jpg
   planetName: Orangeuze
   recyclePage:
