@@ -2,7 +2,7 @@ server:
   port: 3000
 application:
   domain: aGameWars.op
-  name: 'QuickKart'
+  name: 'Fruity Bank'
   logo: logo_fruit.png
   favicon: favicon.ico
   numberOfRandomFakeUsers: 0
