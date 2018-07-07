@@ -3,7 +3,7 @@ server:
 application:
   domain: aGameWars.op
   name: 'QuickKart'
-  logo: logo_quick.png
+  logo: logo_fruit.png
   favicon: favicon.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
