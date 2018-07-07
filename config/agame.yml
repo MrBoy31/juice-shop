@@ -2,9 +2,9 @@ server:
   port: 3000
 application:
   domain: aGameWars.op
-  name: 'Cool Coins'
-  logo: a_logo_ctf.png
-  favicon: a_logo_ctf_RzH_icon.ico
+  name: 'QuickKart'
+  logo: logo_quick.png
+  favicon: favicon.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
   showChallengeHints: false
