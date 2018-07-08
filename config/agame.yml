@@ -82,7 +82,7 @@ products:
     name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
     description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
     price: 0.01
-    image: orange_juice.jpg
+    image: owasp.jpeg
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/O-Saft'
   -
     name: 'Christmas Super-Surprise-Box (2014 Edition)'
