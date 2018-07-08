@@ -72,12 +72,12 @@ products:
     name: 'E. Corp Shop T-Shirt'
     description: 'Real fans wear it 24/7!'
     price: 22.49
-    image: fan_shirt.jpg
+    image: men_shirt.jpg
   -
     name: 'E. Corp Shop Girlie-Shirt'
-    description: 'For serious Capture-the-Flag heroines only!'
+    description: 'For serious E. Corp heroines only!'
     price: 22.49
-    image: fan_girlie.jpg
+    image: women_shirt.jpg
   -
     name: 'OWASP SSL Advanced Forensic Tool (O-Saft)'
     description: 'O-Saft is an easy to use tool to show information about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.'
@@ -130,9 +130,9 @@ products:
     image: fan_mug.jpg
   -
     name: 'E. Corp Shop Hoodie'
-    description: 'Mr. Robot-style apparel. But in black. And with logo.'
+    description: 'E. Corp apparel. But in black. And with logo.'
     price: 49.99
-    image: fan_hoodie.jpg
+    image: mens_hoodie.jpg
   -
     name: 'E. Corp Shop Velcro Patch'
     description: '4x3.5" embroidered patch with velcro backside. The ultimate decal for every tactical bag or backpack!'
