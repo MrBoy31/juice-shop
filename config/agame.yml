@@ -137,7 +137,7 @@ products:
     name: 'E. Corp Shop Velcro Patch'
     description: '4x3.5" embroidered patch with velcro backside. The ultimate decal for every tactical bag or backpack!'
     price: 2.92
-    image: velcro-patch.jpg
+    image: velcro_patch.jpg
     reviews:
       - { text: 'This thang would look phat on Bobby''s jacked fur coat!', author: mc.safesearch }
       - { text: 'Looks so much better on my uniform than the boring Starfleet symbol.', author: jim }
