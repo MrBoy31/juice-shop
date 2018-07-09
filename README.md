@@ -25,11 +25,11 @@
 5. Run `npm start`
 6. Browse to <http://localhost:3000>
 
-### Docker Container [![Docker Automated build](https://img.shields.io/docker/automated/mozilla/ctf-austin.svg)](https://registry.hub.docker.com/u/MrBoy31/wargame-web/) [![Docker Pulls](https://img.shields.io/docker/pulls/MrBoy31/wargame-web/.svg)](https://registry.hub.docker.com/u/MrBoy31/wargame-web/) [![](https://images.microbadger.com/badges/image/MrBoy31/wargame-web/.svg)](https://microbadger.com/images/MrBoy31/wargame-web/ "Get your own image badge on microbadger.com")
+### Docker Container [![Docker Automated build](https://img.shields.io/docker/automated/MrBoy31/wargame-web.svg)](https://registry.hub.docker.com/u/MrBoy31/wargame-web/) [![Docker Pulls](https://img.shields.io/docker/pulls/MrBoy31/wargame-web/.svg)](https://registry.hub.docker.com/u/MrBoy31/wargame-web/) [![](https://images.microbadger.com/badges/image/MrBoy31/wargame-web/.svg)](https://microbadger.com/images/MrBoy31/wargame-web/ "Get your own image badge on microbadger.com")
 
 1. Install [Docker](https://www.docker.com)
-2. Run `docker pull mozilla/ctf-austin`
-3. Run `docker run -d -p 3000:3000 mozilla/ctf-austin`
+2. Run `docker pull MrBoy31/wargame-web`
+3. Run `docker run -d -p 3000:3000 MrBoy31/wargame-web`
 4. Browse to <http://localhost:3000> (on macOS and Windows browse to
    <http://192.168.99.100:3000> if you are using docker-machine instead
    of the native docker installation )
@@ -38,7 +38,7 @@
 
 1. Install and launch
    [Docker Toolbox](https://www.docker.com/docker-toolbox)
-2. Search for `ctf-austin` and click _Create_ to download image and run
+2. Search for `wargame-web` and click _Create_ to download image and run
    container
 3. Click on the _Open_ icon next to _Web Preview_ to browse to OWASP
    Juice Shop
@@ -58,8 +58,8 @@
 yum update -y
 yum install -y docker
 service docker start
-docker pull mozilla-services/ctf-austin
-docker run -d -p 80:3000 mozilla-services/ctf-austin
+docker pull MrBoy31/wargame-web
+docker run -d -p 80:3000 MrBoy31/wargame-web
 ```
 
 > Technically Amazon could view hacking activity on any EC2 instance as
