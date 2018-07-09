@@ -1,80 +1,101 @@
+
+## Setup
+
+### Deploy on Heroku (free ($0/month) dyno)
+
+1. Click the button below and follow the instructions
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+> This is the quickest way to get a running instance! If
+> you have forked this repository, the deploy button will automatically
+> pick up your fork for deployment! As long as you do not perform any
+> DDoS attacks you are free to use any tools or scripts to hack your
+> instance on Heroku!
+
+### From Sources
+
+1. Install [node.js](#nodejs-version-compatibility)
+2. Run `git clone https://github.com/MrBoy31/wargame-web.git` (or
+   clone [your own fork](https://github.com/MrBoy31/wargame-web/fork)
+   of the repository)
+3. Go into the cloned folder with `cd ctf-austin`
+4. Run `npm install` (only has to be done before first start or when you
+   change the source code)
+5. Run `npm start`
+6. Browse to <http://localhost:3000>
+
+### Docker Container [![Docker Automated build](https://img.shields.io/docker/automated/mozilla/ctf-austin.svg)](https://registry.hub.docker.com/u/MrBoy31/wargame-web/) [![Docker Pulls](https://img.shields.io/docker/pulls/MrBoy31/wargame-web/.svg)](https://registry.hub.docker.com/u/MrBoy31/wargame-web/) [![](https://images.microbadger.com/badges/image/MrBoy31/wargame-web/.svg)](https://microbadger.com/images/MrBoy31/wargame-web/ "Get your own image badge on microbadger.com")
+
+1. Install [Docker](https://www.docker.com)
+2. Run `docker pull mozilla/ctf-austin`
+3. Run `docker run -d -p 3000:3000 mozilla/ctf-austin`
+4. Browse to <http://localhost:3000> (on macOS and Windows browse to
+   <http://192.168.99.100:3000> if you are using docker-machine instead
+   of the native docker installation )
+
+#### Even easier: Run Docker Container from Docker Toolbox (Kitematic)
+
+1. Install and launch
+   [Docker Toolbox](https://www.docker.com/docker-toolbox)
+2. Search for `ctf-austin` and click _Create_ to download image and run
+   container
+3. Click on the _Open_ icon next to _Web Preview_ to browse to OWASP
+   Juice Shop
+
+### Amazon EC2 Instance
+
+1. Setup an _Amazon Linux AMI_ instance
+2. In _Step 3: Configure Instance Details_ unfold _Advanced Details_ and
+   copy the script below into _User Data_
+3. In _Step 6: Configure Security Group_ add a _Rule_ that opens port 80
+   for HTTP
+4. Launch instance
+5. Browse to your instance's public DNS
+
+```
+#!/bin/bash
+yum update -y
+yum install -y docker
+service docker start
+docker pull mozilla-services/ctf-austin
+docker run -d -p 80:3000 mozilla-services/ctf-austin
+```
+
+> Technically Amazon could view hacking activity on any EC2 instance as
+> an attack on their AWS infrastructure! We highly discourage aggressive
+> scanning or automated brute force attacks! You have been warned!
+
+### Vagrant
+
+1. Install [Vagrant](https://www.vagrantup.com/downloads.html) and
+   [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+2. Run `git clone https://github.com/MrBoy31/wargame-web.git` (or
+   clone [your own fork](https://github.com/MrBoy31/wargame-web/fork)
+   of the repository)
+3. Run `cd vagrant && vagrant up`
+4. Browse to [192.168.33.10](http://192.168.33.10)
+
+> To show the possible impact of
+> [XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)),
+> assume you received and (of course) clicked
+> [this inconspicuous phishing link](http://192.168.33.10/#/search?q=%3Cscript%3Evar%20js%20%3Ddocument.createElement%28%22script%22%29;js.type%20%3D%20%22text%2Fjavascript%22;js.src%3D%22http:%2F%2F192.168.33.10%2Fshake.js%22;document.body.appendChild%28js%29;varhash%3Dwindow.location.hash;window.location.hash%3Dhash.substr%280,8%29;%3C%2Fscript%3Eapple)
+> and login. Apart from the visual/audible effect, the attacker also
+> installed [an input logger](http://192.168.33.10/logger.php) to grab
+> credentials! This could easily run on a 3rd party server in real life!
+>
+> _This feature is only available when running a Vagrant box. A
+> recording of the effect is available on Youtube:_
+> [:tv:](https://www.youtube.com/watch?v=L7ZEMWRm7LA)
+
 ## Node.js version compatibility
 
-Officially supporting the following versions of
-[node.js](http://nodejs.org) in line as close as possible with the
+The following versions of
+[node.js](http://nodejs.org) are supported, in line as close as possible with the
 official [node.js LTS schedule](https://github.com/nodejs/LTS). Docker
 images and packaged distributions are offered accordingly:
 
-| node.js | [Docker image](https://registry.hub.docker.com/u/bkimminich/juice-shop)             | [Packaged distributions](https://github.com/bkimminich/juice-shop/releases/latest)       |
+| node.js | [Docker image](https://registry.hub.docker.com/MrBoy31/wargame-web/)             | [Packaged distributions](https://github.com//MrBoy31/wargame-web/releases/latest)       |
 |:--------|:------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-| __9.x__ | __`latest`__ (current official release), `snapshot` (preview from `develop` branch) | `juice-shop-<version>_node9_windows_x64.zip`, `juice-shop-<version>_node9_linux_x64.tgz` |
-| 8.x     |                                                                                     | `juice-shop-<version>_node8_windows_x64.zip`, `juice-shop-<version>_node8_linux_x64.tgz` |
-
-## Demo [![Heroku](https://heroku-badge.herokuapp.com/?app=juice-shop)](http://demo.owasp-juice.shop)
-
-Feel free to have a look at the latest version of OWASP Juice Shop:
-<http://demo.owasp-juice.shop>
-
-> This is a deployment-test and sneak-peek instance only! You are __not
-> supposed__ to use this instance for your own hacking endeavours! No
-> guaranteed uptime! Guaranteed stern looks if you break it!
-
-
-## Additional Documentation
-
-### Pwning BB Wargames 
-
-
-## Troubleshooting [![Gitter](http://img.shields.io/badge/gitter-join%20chat-1dce73.svg)](https://gitter.im/bkimminich/juice-shop)
-
-If you need help with the application setup please check the
-[TROUBLESHOOTING.md](TROUBLESHOOTING.md) or post your specific problem
-or question in the
-[official Gitter Chat](https://gitter.im/bkimminich/juice-shop).
-
-## Contributing [![GitHub contributors](https://img.shields.io/github/contributors/bkimminich/juice-shop.svg)](https://github.com/bkimminich/juice-shop/graphs/contributors) [![Stories in Ready](https://badge.waffle.io/bkimminich/juice-shop.svg?label=ready&title=Ready)](http://waffle.io/bkimminich/juice-shop) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/owasp-juice-shop/localized.svg)](https://crowdin.com/project/owasp-juice-shop) [![Bountysource Activity](https://img.shields.io/bountysource/team/juice-shop/activity.svg)](https://www.bountysource.com/teams/juice-shop)
-
-We are always happy to get new contributors on board! Please check the
-following table for possible ways to do so:
-
-| :question:                                                                                            | :bulb:                                                                                                                                                                                                                                                                                   |
-|:------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Found a bug? Crashed the app? Broken challenge? Found a vulnerability that is not on the Score Board? | [Create an issue](https://github.com/bkimminich/juice-shop/issues) or [post your ideas in the chat](https://gitter.im/bkimminich/juice-shop)                                                                                                                                             |
-| Want to help with development? Pull requests are highly welcome!                                      | Please refer to the [_Contribute to development_](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part3/contribution.html) and [_Codebase 101_](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part3/codebase.html) chapters of our companion guide ebook |
-| Want to help with internationalization?                                                               | Find out how to join our [Crowdin project](https://crowdin.com/project/owasp-juice-shop) in [the _Helping with translations_ documentation](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part3/translation.html)                                                       |
-| Anything else you would like to contribute?                                                           | Write an email to owasp_juice_shop_project@lists.owasp.org or bjoern.kimminich@owasp.org                                                                                                                                                                                                 |
-
-## References
-
-Did you write a blog post, magazine article or do a podcast about or
-mentioning OWASP Juice Shop? Or maybe you held or joined a conference
-talk or meetup session, a hacking workshop or public training where this
-project was mentioned?
-
-Add it to our ever-growing list of [REFERENCES.md](REFERENCES.md) by
-forking and opening a Pull Request!
-
-## Merchandise
-
-* On [Spreadshirt.com](http://shop.spreadshirt.com/juiceshop) and
-  [Spreadshirt.de](http://shop.spreadshirt.de/juiceshop) you can get
-  some swag (Shirts, Hoodies, Mugs) with the official OWASP Juice Shop
-  logo
-* On
-  [StickerYou.com](https://www.stickeryou.com/products/owasp-juice-shop/794)
-  you can get variants of the OWASP Juice Shop logo as single stickers
-  to decorate your laptop with. They can also print magnets, iron-ons,
-  sticker sheets and temporary tattoos.
-
-The most honorable way to get some stickers is to
-[contribute to the project](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/part3/contribution.html)
-by fixing an issue, finding a serious bug or submitting a good idea for
-a new challenge!
-
-We're also happy to supply you with stickers if you organize a meetup or
-conference talk where you use or talk about or hack the OWASP Juice
-Shop! Just
-[contact the mailing list](mailto:owasp_juice_shop_project@lists.owasp.org)
-or [the project leader](mailto:bjoern.kimminich@owasp.org) to discuss
-your plans! !
-
+| __6.x__ | __`latest`__ (current official release), `snapshot` (preview from `develop` branch) | `wargame-web-<version>_node6_windows_x64.zip`, `wargame-web-<version>_node6_linux_x64.tgz` |
+| 8.x     |                                                                                     | `wargame-web-<version>_node8_windows_x64.zip`, `wargame-web-<version>_node8_linux_x64.tgz` |
