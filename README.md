@@ -19,7 +19,7 @@
 2. Run `git clone https://github.com/MrBoy31/wargame-web.git` (or
    clone [your own fork](https://github.com/MrBoy31/wargame-web/fork)
    of the repository)
-3. Go into the cloned folder with `cd ctf-austin`
+3. Go into the cloned folder with `cd wargame-web`
 4. Run `npm install` (only has to be done before first start or when you
    change the source code)
 5. Run `npm start`
