@@ -76,9 +76,9 @@ products:
     price: 13.51
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-unisex-t-shirt-lapis.jpg'
   -
-    name: 'Black cap w/tote'
+    name: 'Black cap'
     price: 17.75
-    image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155339.jpg'
+    image: e_hat.jpg
   -
     name: Beanie
     price: 5.5
@@ -143,7 +143,7 @@ products:
     name: 'OWASP Zed Attack Proxy (ZAP)'
     description: 'ZAP is one of the world’s most popular free security tools and can help you automatically find security vulnerabilities while you are developing and testing your applications.'
     price: 0.01
-    image: zap.png
+    image: owasp.jpeg
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project'
   -
     name: 'Christmas Super-Surprise-Box (2014 Edition)'
@@ -152,7 +152,7 @@ products:
     image: undefined.jpg
     useForChristmasSpecialChallenge: true
   -
-    name: 'Mozilla Austin CTF Logo (3D-printed)'
+    name: 'E Corp CTF Logo (3D-printed)'
     description: 'This rare item was designed and handcrafted in Sweden. This is why it is so incredibly expensive despite its complete lack of purpose.'
     price: 99.99
     image: 3d_keychain.jpg
@@ -167,4 +167,4 @@ ctf:
   countryMapping: ~
   showFlagsInNotifications: true
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
-  
+ 
