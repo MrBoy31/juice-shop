@@ -2,7 +2,7 @@ server:
   port: 3000
 application:
   domain: aGameWars.op
-  name: 'E Shop'
+  name: 'E Corp Shop'
   logo: elogo.png
   favicon: favicon.ico
   numberOfRandomFakeUsers: 0
@@ -65,8 +65,9 @@ products:
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200157451.jpg'
   -
     name: 'Unisex t-shirt, navy'
-    price: 13.51
-    image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155342.jpg'
+    description: 'Ex Vendor promotional shirt. Can be <a href="/#recycle">sent back to us</a> for recycling.'
+    price: 0.83
+    image: allsafe_shirt01.jpg
   -
     name: 'Ladies t-shirt, navy'
     price: 10
@@ -91,10 +92,11 @@ products:
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155751.jpg'
   -
     name: 'Glossy finish ceramic mug'
+     description: 'Awesome corporate mug with log.'
     price: 8.81
-    image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155758.jpg'
+    image: e_coffee_mug
   -
-    name: '3 inch round Firefox sticker, individual'
+    name: '3 inch round  sticker, individual'
     price: 0.11
     description: '1 roll = 500 stickers (please request 500 if you need a full roll)'
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155753.jpg'
@@ -113,21 +115,22 @@ products:
     price: 1.65
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155754.jpg'
   -
-    name: 'Firefox tattoo, 50 pack'
+    name: 'Tattoo, 50 pack'
     price: 4
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155757.jpg'
   -
     name: '1.25 inch Firefox Button, 25 pack'
     price: 7
   -
-    name: 'Mozilla Cap'
+    name: 'Cap'
     price: 4.63
   -
     name: 'Fox Plush'
     price: 8.6
   -
-    name: 'Mozilla custom hoodie'
+    name: 'Custom hoodie'
     price: 19.66
+    image: mens_hoodie.jpg
     reviews:
       - { text: 'You gotta get this.', author: jim }
   -
