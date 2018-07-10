@@ -40,22 +40,22 @@ products:
     reviews: # Options 'author': admin, jim, bender, ciso, support, morty, mc.safesearch
       - { text: 'One of my favorites!', author: admin }
   -
-    name: 'Orange Juice (1000ml)'
-    description: 'Made from oranges hand-picked by Uncle Dittmeyer.'
+    name: 'E. Corp Hat'
+    description: 'Made from real polyester and assembled in a foreign country'
     price: 2.99
-    image: orange_juice.jpg
+    image: e_hat.jpg
   -
-    name: 'Eggfruit Juice (500ml)'
-    description: 'Now with even more exotic flavour.'
+    name: 'E. Corp Gym Bag'
+    description: 'Now with even more exotic colours!'
     price: 8.99
-    image: eggfruit_juice.jpg
+    image: e_gymbag.jpg
     reviews:
       - { text: 'I bought it, would buy again. 5/7', author: admin }
   -
-    name: 'Raspberry Juice (1000ml)'
-    description: 'Made from blended Raspberry Pi, water and sugar.'
+    name: 'E. Corp Travel Mug'
+    description: 'Made from blended plastics and shaped in an exotic way.'
     price: 4.99
-    image: raspberry_juice.jpg
+    image: e_travel_mug.jpg
   -
     name: 'Lemon Juice (500ml)'
     description: 'Sour but full of vitamins.'
