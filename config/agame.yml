@@ -2,7 +2,7 @@ server:
   port: 3000
 application:
   domain: aGameWars.op
-  name: 'E. Corp'
+  name: 'Allsafe Shop'
   logo: elogo.png
   favicon: favicon.ico
   numberOfRandomFakeUsers: 0
