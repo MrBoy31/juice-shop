@@ -92,9 +92,9 @@ products:
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155751.jpg'
   -
     name: 'Glossy finish ceramic mug'
-     description: 'Awesome corporate mug with log.'
+    description: 'Awesome corporate mug with log.'
     price: 8.81
-    image: e_coffee_mug
+    image: e_coffee_mug.jpg
   -
     name: '3 inch round  sticker, individual'
     price: 0.11
