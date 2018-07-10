@@ -32,7 +32,6 @@ application:
     encryption: 'https://keybase.io/bkimminich/pgp_keys.asc?fingerprint=19c01cb7157e4645e9e2c863062a85a8cbfbdcda'
     acknowledgements: '/#/score-board'
 products:
-products:
   -
     name: 'Champion Sweatshirt with a Drawstring Tote'
     price: 68.89
@@ -166,6 +165,6 @@ products:
     deletedDate: '2017-07-01'
 ctf:
   countryMapping: ~
-  showFlagsInNotifications: false
+  showFlagsInNotifications: true
   showCountryDetailsInNotifications: none # Options: none  name  flag  both
   
