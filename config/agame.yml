@@ -191,6 +191,7 @@ products:
     description: 'Awesome new 2018 edition Laptop sleave.'
     price: 2999
     image: e_laptop_sleave.jpeg
+  -
 ctf:
   countryMapping: ~
   showFlagsInNotifications: true
