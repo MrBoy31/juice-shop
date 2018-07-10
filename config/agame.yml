@@ -3,7 +3,7 @@ server:
 application:
   domain: aGameWars.op
   name: 'E. Corp'
-  logo: allsafe-cybersecurity.png
+  logo: elogo.png
   favicon: favicon.ico
   numberOfRandomFakeUsers: 0
   showChallengeSolvedNotifications: true
