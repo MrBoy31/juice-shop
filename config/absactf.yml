@@ -39,9 +39,9 @@ products:
     reviews:
       - { text: 'One of my favorites!', author: admin }
   -
-    name: 'Rickshaw Commuter 2.0 Laptop Bag'
+    name: 'Commuter 2.0 Laptop Bag'
     price: 205
-    image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155749.jpg'
+    image: e_laptop_sleave.jpg
   -
     name: 'Moleskine Notebook'
     price: 33
@@ -73,15 +73,15 @@ products:
     price: 10
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155413.jpg'
   -
-    name: 'Unisex t-shirt, lapis'
+    name: 'Unisex t-shirt'
     price: 13.51
-    image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-unisex-t-shirt-lapis.jpg'
+    image: men_shirt.jpg
   -
     name: 'Black cap'
     price: 17.75
     image: e_hat.jpg
   -
-    name: Beanie
+    name: 'Beanie'
     price: 5.5
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155340.jpg'
     reviews:
@@ -89,7 +89,7 @@ products:
   -
     name: 'Drawstring tote'
     price: 5.5
-    image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155751.jpg'
+    image: e_gymbag.jpg
   -
     name: 'Glossy finish ceramic mug'
     description: 'Awesome corporate mug with log.'
@@ -99,7 +99,7 @@ products:
     name: '3 inch round  sticker, individual'
     price: 0.11
     description: '1 roll = 500 stickers (please request 500 if you need a full roll)'
-    image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155753.jpg'
+    image: e_sticker.png
   -
     name: 'Silicone wristband'
     price: 0.32
