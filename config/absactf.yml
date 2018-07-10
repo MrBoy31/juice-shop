@@ -176,7 +176,7 @@ products:
     fileForRetrieveBlueprintChallenge: JuiceShop.stl # ...to blueprint file type
   -
     name: 'Juice Shop Artwork'
-    description: 'Unique masterpiece painted with different kinds of juice on 90g/m² lined paper.'
+    description: 'Unique masterpiece painted with different kinds of juice on 90g/mÂ² lined paper.'
     price: 278.74
     image: artwork.jpg
   -
@@ -203,7 +203,7 @@ products:
     deletedDate: '2017-09-20'
   -
     name: 'Pwning OWASP Juice Shop'
-    description: '<em>The official Companion Guide</em> by Björn Kimminich available <a href="https://leanpub.com/juice-shop">for free on LeanPub</a> and <a href="https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/">readable online on GitBook</a>!'
+    description: '<em>The official Companion Guide</em> by BjÃ¶rn Kimminich available <a href="https://leanpub.com/juice-shop">for free on LeanPub</a> and <a href="https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/">readable online on GitBook</a>!'
     price: 5.99
     image: cover_small.jpg
     reviews:
