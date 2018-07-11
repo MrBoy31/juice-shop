@@ -92,7 +92,7 @@ products:
     image: e_gymbag.jpg
   -
     name: 'Glossy finish ceramic mug'
-    description: 'Awesome corporate mug with log.'
+    description: 'Awesome corporate mug with logo.'
     price: 8.81
     image: e_coffee_mug.jpg
   -
