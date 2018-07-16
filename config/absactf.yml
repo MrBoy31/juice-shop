@@ -122,9 +122,6 @@ products:
     name: '1.25 inch Firefox Button, 25 pack'
     price: 7
   -
-    name: 'Cap'
-    price: 4.63
-  -
     name: 'Fox Plush'
     price: 8.6
   -
@@ -133,15 +130,6 @@ products:
     image: mens_hoodie.jpg
     reviews:
       - { text: 'You gotta get this.', author: jim }
-  -
-    name: 'Woman''s Firefox Logo T-Shirt (grey)'
-    price: 4.31
-  -
-    name: 'Women''s Vertical T-Shirt'
-    price: 5.09
-  -
-    name: 'Mozilla Horizontal T-Shirt'
-    price: 5.94
   -
     name: 'OWASP Zed Attack Proxy (ZAP)'
     description: 'ZAP is one of the world’s most popular free security tools and can help you automatically find security vulnerabilities while you are developing and testing your applications.'
