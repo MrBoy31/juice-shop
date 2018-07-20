@@ -119,7 +119,7 @@ products:
     price: 4
     image: 'https://github.com/mozilla/ctf-austin/raw/master/app/public/images/products/Gear-200155757.jpg'
   -
-    name: '1.25 inch Firefox Button, 25 pack'
+    name: '1.25 inch Button, 25 pack'
     price: 7
   -
     name: 'Fox Plush'
@@ -140,7 +140,7 @@ products:
     name: 'Christmas Super-Surprise-Box (2014 Edition)'
     description: 'Contains a random selection of stickers and three Unisex t-shirts (3XL) for an unbeatable price!'
     price: 29.99
-    image: undefined.jpg
+    image: xmas.jpg
     useForChristmasSpecialChallenge: true
   -
     name: 'E Corp CTF Logo (3D-printed)'
