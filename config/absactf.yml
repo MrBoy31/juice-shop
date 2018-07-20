@@ -9,7 +9,7 @@ application:
   showChallengeSolvedNotifications: true
   showChallengeHints: false
   showVersionNumber: false
-  theme: united
+  theme: superhero
   gitHubRibbon: none
   twitterUrl: 'https://twitter.com/abcloudsec'
   planetOverlayMap: orangemap2k.jpg
