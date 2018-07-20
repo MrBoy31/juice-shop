@@ -135,6 +135,8 @@ products:
     description: 'ZAP is one of the world’s most popular free security tools and can help you automatically find security vulnerabilities while you are developing and testing your applications.'
     price: 0.01
     image: owasp.jpeg
+    reviews:
+      - { text: 'Really helpful tool.', author: mc.safesearch }
     urlForProductTamperingChallenge: 'https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project'
   -
     name: 'Christmas Super-Surprise-Box (2014 Edition)'
